@@ -20,7 +20,7 @@ function teste(){
            alert('Erro ao atualizar a senha.');
          }
        };
-        return teste
+        return texto
 }
 function myFunction() {
   document.getElementById("demo").textContent=teste();
