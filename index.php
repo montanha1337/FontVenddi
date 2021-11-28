@@ -20,9 +20,7 @@
   <div class="container">
     <h1 class="titulo">Aqui jas um corpo</h1>
     <h2>
-    <script type="text/javascript">
-  alert('Olá mundo!');
-</script>
+    <script type="text/javascript" src="js/funcoes.js"></script>
     </h2>
   </div>
 </body>
