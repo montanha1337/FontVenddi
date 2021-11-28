@@ -9,7 +9,7 @@
 <header>
   <nav>
     <ul>
-        <img src="/imagens/logo.png">
+        <img class="logo" src="/imagens/logo.png">
         <li><a href="#" class="current">Home</a></li>
         <li><a href="#">Categorias</a></li>
         <li><a href="https://venddiapi.herokuapp.com/desenvolvimento/rotasparaimportacao" >Atualizar Rota</a></li>
