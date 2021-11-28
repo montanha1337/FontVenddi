@@ -15,5 +15,3 @@ function myFunctionNew() {
     document.getElementById("teste").textContent="mudou teste";       
   }
 
-
- module.exports = {myFunction,myFunctionNew}
