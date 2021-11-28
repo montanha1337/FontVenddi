@@ -7,7 +7,7 @@ var rota2
 
 function inicia(){
     rota1 = document.getElementById("demo")
-    rota1.addEventListener("click",myFunction)
+    rota1.addEventListener("load",myFunction)
 
     rota2 =  document.getElementById("demo")
     rota1.addEventListener("click",rota) 

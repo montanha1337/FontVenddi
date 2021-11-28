@@ -14,7 +14,7 @@
     <nav>
       <img class="logo" src="/imagens/logo.png">
       <li><a href="#" class="current">Home</a></li>
-      <li><a id='rotas' >Atualizar Rota</a></li>
+      <li><a id='rotas' href="https://venddiapi.herokuapp.com/desenvolvimento/rotasparaimportacao" >Atualizar Rota</a></li>
     </nav>
   </header>
 <body>
