@@ -1,5 +1,6 @@
-
+window.addEventListener("load",teste);
 window.addEventListener("load",myFunction);
+
 
 var texto = "aprendendo a criar elementos"
 const back = "venddiapi.herokuapp.com"
