@@ -70,6 +70,7 @@ header h1{
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #fcfafa; 
+	margin-top: 30;
 }
 .logo{
     width: 60px;
@@ -114,5 +115,8 @@ ul{
 li{
   display:inline-block;
   padding:20px;
+}
+h1{
+
 }
 
