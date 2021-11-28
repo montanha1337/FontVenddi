@@ -6,16 +6,6 @@ const back = "venddiapi.herokuapp.com"
 
 function teste(){
     const teste = async (e, req,res) => {
-        e.preventDefault();
-        var form = document.querySelector("#formElem");
-        const novaSenha = form.querySelector('input[name="novaSenha"]').value
-        const confirmaSenha = form.querySelector('input[name="confirmaSenha"]').value
-        const url = window.location.href
-        var token = url.substring(url.lastIndexOf('/') + 1);
-        if(novaSenha == confirmaSenha){
-          data = {
-            novaSenha : form.querySelector('input[name="novaSenha"]').value
-          }
           let response = await fetch(`/web/redefinirSenha/${ token }`, {
             method: 'POST',
             headers: {
@@ -26,15 +16,12 @@ function teste(){
   
           let text = await response;
           if(text.status==200){
-            alert('Senha Alterada com Sucesso, favor retornar a pagina inicial');
+            return text
           }else{
             alert('Erro ao atualizar a senha.');
           }
-        }else{
-            alert('Senha não compativel.');
-          }
-          return teste
-      };
+        }
+        return teste
 }
 function myFunction() {
   document.getElementById("demo").textContent=teste();
