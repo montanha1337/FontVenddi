@@ -6,8 +6,8 @@ var texto = "aprendendo a criar elementos"
 const back = "venddiapi.herokuapp.com"
 
 function teste(){
-    let requests = new XMLHttpRequest()
-    requests.open("GET",`${back}/desenvolvimento/testeserver`,false)
+    let requests = new 
+    requests.open("GET",`${back}/desenvolvimento/testeserver`)
     requests.send()
     return requests.responseText
 }
