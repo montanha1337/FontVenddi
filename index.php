@@ -22,7 +22,7 @@
     <h1 class="titulo">Aqui jas um corpo</h1>
     <h2 id="demo"></h2>
     <h2 id="teste"></h2>
-    <button type="button" onclick="myFunction()">Click Me!</button>
+    <button type="button" onclick="myFunctionNew()">Click para mudar</button>
   </div>
 </body>
 <script>
