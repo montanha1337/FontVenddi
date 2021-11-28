@@ -7,7 +7,6 @@
 </head>
 <link href="css/estilo.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
-<body>
 <header>
     
     <nav>
@@ -15,8 +14,11 @@
       <li><a href="#" class="current">Home</a></li>
       <li><a href="https://venddiapi.herokuapp.com/desenvolvimento/rotasparaimportacao" >Atualizar Rota</a></li>
     </nav>
-  </header><br><br><br>
- <h1>Aqui jas um corpo</h1>
+  </header>
+<body>
+  <div class="container">
+    <h1>Aqui jas um corpo</h1>
+  </div>
 </body>
 <script>
     
