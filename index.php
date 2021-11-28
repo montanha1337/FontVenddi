@@ -21,6 +21,7 @@
   <div class="container">
     <h1 class="titulo">Aqui jas um corpo</h1>
     <h2 id="demo"></h2>
+    <h2 id="teste"></h2>
     <button type="button" onclick="myFunctionNew()">Click Me!</button>
   </div>
 </body>
