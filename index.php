@@ -21,7 +21,10 @@
     <h1 class="titulo">Aqui jas um corpo</h1>
     <h2>
       <script>
-        teste()
+        function teste(){
+    console.log("passou por aqui")
+    return "olá mundo!!"
+}
       </script>
     </h2>
   </div>
