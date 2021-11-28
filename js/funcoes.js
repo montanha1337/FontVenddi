@@ -1,4 +1,5 @@
 window.addEventListener("load",inicia);
+window.addEventListener("load",myFunction);
 
 var texto = "aprendendo a criar elementos"
 var rota1
