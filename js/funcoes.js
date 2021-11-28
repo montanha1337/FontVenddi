@@ -1,4 +1,4 @@
-var Conexao = import("./conexao")
+var Conexao = import("./conexao.js")
 window.addEventListener("load",myFunction);
 
 
