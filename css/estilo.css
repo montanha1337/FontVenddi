@@ -68,7 +68,12 @@ header h1{
     /****************************** TESTE **************/    
 
 
-
+.logo{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 0;
+}
 a{
   text-decoration:none;
   color:rgb(0,0,0);
@@ -109,9 +114,3 @@ li{
   padding:20px;
 }
 
-.logo{
-    width: 60px;
-    height: 60px;
-    padding: 10px;
-    margin: 0;
-}
