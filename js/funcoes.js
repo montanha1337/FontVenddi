@@ -1,9 +1,10 @@
-var Conexao = import("./conexao.js")
+
 window.addEventListener("load",myFunction);
 
+var texto = "aprendendo a criar elementos"
 
 function myFunction() {
-    const texto =Conexao.texto()
+
     console.log(texto)
   document.getElementById("demo").textContent=texto;
   document.getElementById("teste").textContent=texto;       
