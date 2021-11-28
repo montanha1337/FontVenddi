@@ -1,16 +1,16 @@
 window.addEventListener("load",teste);
-window.addEventListener("load",myFunction);
 
 
 var texto = "aprendendo a criar elementos"
 const back = "venddiapi.herokuapp.com"
 
 function teste(){
-    let requests = new 
+    let requests = new XMLHttpRequest()
     requests.open("GET",`${back}/desenvolvimento/testeserver`)
-    request.responseType = 'json';
-    request.send();
-    return requests.responseText
+    requests.responseType = 'json';
+    requests.send();    
+    document.getElementById("demo").textContent=requests.responseText;
+    document.getElementById("teste").textContent=texto;  
 }
 function myFunction() {
   document.getElementById("demo").textContent=teste();
