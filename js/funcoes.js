@@ -1,4 +1,4 @@
-var Conexao = import("conexaobeck.js")
+var Conexao = import("js/conexaobeck.js")
 window.addEventListener("load",myFunction);
 
 
