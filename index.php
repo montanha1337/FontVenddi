@@ -11,6 +11,6 @@
     
   <nav>
     <img class="logo" src="/imagens/logo.png">
-    
+    <li><a href="#" class="current">Home</a></li>
   </nav>
 </header>
