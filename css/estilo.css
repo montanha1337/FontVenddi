@@ -119,4 +119,8 @@ li{
 .container{
 	margin-top: 5%;
 }
+.titulo{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
 

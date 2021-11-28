@@ -17,7 +17,7 @@
   </header>
 <body>
   <div class="container">
-    <h1>Aqui jas um corpo</h1>
+    <h1 class="titulo">Aqui jas um corpo</h1>
   </div>
 </body>
 <script>
