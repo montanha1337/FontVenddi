@@ -5,22 +5,21 @@ var texto = "aprendendo a criar elementos"
 const back = "venddiapi.herokuapp.com"
 
 function teste(){
-    const teste = async (e, req,res) => {
-          let response = await fetch(`/web/redefinirSenha/${ token }`, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-          })
-  
-          let text = await response;
-          if(text.status==200){
-            return text
-          }else{
-            alert('Erro ao atualizar a senha.');
-          }
-        }
+    texto = async (e, req,res) => {
+        let response = await fetch(`${back}/desensolvimento/testeserver`, {
+           method: 'GET',
+           headers: {
+             'Content-Type': 'application/json',
+           },
+         })
+   
+         let text = await response;
+         if(text.status==200){
+           alert('Senha Alterada com Sucesso, favor retornar a pagina inicial');
+         }else{
+           alert('Erro ao atualizar a senha.');
+         }
+       };
         return teste
 }
 function myFunction() {
@@ -33,20 +32,6 @@ function myFunctionNew() {
     document.getElementById("teste").textContent="mudou teste";       
   }
 
-  texto = async (e, req,res) => {
-     let response = await fetch(`${back}/desensolvimento/testeserver`, {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      })
 
-      let text = await response;
-      if(text.status==200){
-        alert('Senha Alterada com Sucesso, favor retornar a pagina inicial');
-      }else{
-        alert('Erro ao atualizar a senha.');
-      }
-    };
   
 
