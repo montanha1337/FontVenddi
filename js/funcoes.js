@@ -4,4 +4,8 @@ function myFunction() {
 
   document.getElementById("demo").textContent=texto;        
 }
- module.exports = {myFunction}
+function myFunctionNew() {
+
+    document.getElementById("demo").textContent="mudou";        
+  }
+ module.exports = {myFunction,myFunctionNew}
