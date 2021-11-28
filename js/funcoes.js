@@ -7,7 +7,6 @@ const back = "venddiapi.herokuapp.com"
 function teste(){
     let requests = new XMLHttpRequest()
     requests.open("GET",`${back}/desenvolvimento/testeserver`)
-    requests.responseType = 'json';
     requests.send();    
     document.getElementById("demo").textContent=requests.responseText;
     document.getElementById("teste").textContent=texto;  
