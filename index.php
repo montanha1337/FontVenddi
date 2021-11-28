@@ -21,7 +21,7 @@
   <div class="container">
     <h1 class="titulo">Aqui jas um corpo</h1>
     <h2 id="demo">
-    <script>myFunction();</script>
+    <button type="button" onclick="myFunction()">Click Me!</button>
     </h2>
   </div>
 </body>
