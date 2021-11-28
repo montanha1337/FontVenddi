@@ -8,7 +8,6 @@
 </head>
 <link href="css/estilo.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
-<script language="JavaScript" src="arquivo.js"></script>
 <header>
     
     <nav>
