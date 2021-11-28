@@ -20,7 +20,7 @@
   <div class="container">
     <h1 class="titulo">Aqui jas um corpo</h1>
     <h2>
-    <script type="text/javascript" src="js/funcoes.js"></script>
+    <script type="text/javascript" src="js/funcoes.js"> teste()</script>
     </h2>
   </div>
 </body>
