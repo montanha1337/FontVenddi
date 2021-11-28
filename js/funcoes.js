@@ -1,10 +1,11 @@
+var Conexao = import("conexaobeck.js")
 window.addEventListener("load",myFunction);
 
-var texto = "aprendendo a criar elementos"
+
 
 function myFunction() {
-  document.getElementById("demo").textContent=texto;
-  document.getElementById("teste").textContent="O q estou fazendo aqui";       
+  document.getElementById("demo").textContent=Conexao.texto;
+  document.getElementById("teste").textContent=Conexao.texto;       
 }
 function myFunctionNew() {
 
@@ -12,7 +13,7 @@ function myFunctionNew() {
     document.getElementById("teste").textContent="mudou teste";       
   }
  function soma(){
-     
+
  }
 
  module.exports = {myFunction,myFunctionNew}
