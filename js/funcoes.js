@@ -4,8 +4,9 @@ window.addEventListener("load",myFunction);
 
 
 function myFunction() {
-  document.getElementById("demo").textContent=Conexao.texto;
-  document.getElementById("teste").textContent=Conexao.texto;       
+    const texto =Conexao.texto
+  document.getElementById("demo").textContent=texto;
+  document.getElementById("teste").textContent=texto;       
 }
 function myFunctionNew() {
 
