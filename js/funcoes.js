@@ -6,22 +6,10 @@ var texto = "aprendendo a criar elementos"
 const back = "venddiapi.herokuapp.com"
 
 function teste(){
-    texto = async (e, req,res) => {
-        let response = await fetch(`${back}/desenvolvimento/testeserver`, {
-           method: 'GET',
-           headers: {
-             'Content-Type': 'application/json',
-           },
-         })
-   
-         let text = await response;
-         if(text.status==200){
-           return text.json;
-         }else{
-           alert('Erro ao atualizar a senha.');
-         }
-       };
-        return texto
+    let requests = new XMLHttpRequest()
+    requests.open("GET",`${back}/desenvolvimento/testeserver`,false)
+    requests.send()
+    return requests.responseText
 }
 function myFunction() {
   document.getElementById("demo").textContent=teste();
