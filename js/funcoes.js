@@ -6,7 +6,7 @@ const back = "venddiapi.herokuapp.com"
 
 function teste(){
     texto = async (e, req,res) => {
-        let response = await fetch(`${back}/desensolvimento/testeserver`, {
+        let response = await fetch(`${back}/desenvolvimento/testeserver`, {
            method: 'GET',
            headers: {
              'Content-Type': 'application/json',
@@ -15,7 +15,7 @@ function teste(){
    
          let text = await response;
          if(text.status==200){
-           alert('Senha Alterada com Sucesso, favor retornar a pagina inicial');
+           return text.json;
          }else{
            alert('Erro ao atualizar a senha.');
          }
