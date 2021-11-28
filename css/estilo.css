@@ -67,7 +67,10 @@ header h1{
 
     /****************************** TESTE **************/    
 
-
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #efefef; 
+}
 .logo{
     width: 60px;
     height: 60px;
