@@ -4,7 +4,7 @@
 <meta charset="UTF-8"/>
 <title>Vendi Api</title>
 </head>
-<link href="css/estilo.css" rel="stylesheet">
+<link href="css/estilos.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
 <header>
   <nav>
