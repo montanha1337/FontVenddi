@@ -1,4 +1,4 @@
-import Conexao from ("./conexao")
+var Conexao = import("./conexao")
 window.addEventListener("load",myFunction);
 
 
@@ -14,8 +14,6 @@ function myFunctionNew() {
     document.getElementById("demo").textContent="mudou demo";  
     document.getElementById("teste").textContent="mudou teste";       
   }
- function soma(){
 
- }
 
  module.exports = {myFunction,myFunctionNew}
