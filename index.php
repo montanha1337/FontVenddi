@@ -8,9 +8,9 @@
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
 <header>
   <nav>
-      <img class="logo" src="/imagens/logo.png">
+      
     <ul>
-        
+        <img class="logo" src="/imagens/logo.png">
         <li><a href="#" class="current">Home</a></li>
         <li><a href="#">Categorias</a></li>
         <li><a href="https://venddiapi.herokuapp.com/desenvolvimento/rotasparaimportacao" >Atualizar Rota</a></li>
