@@ -26,6 +26,9 @@
     return "olá mundo!!"
 }
       </script>
+      <script language="JavaScript" src="arquivo.js">
+        teste()
+      </script>
     </h2>
   </div>
 </body>
