@@ -8,7 +8,6 @@
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
 <header>
   <nav>
-      <a href="#" id="responsive-menu"></a>
     <ul>
         <img src="/imagens/logo.png">
         <li><a href="#" class="current">Home</a></li>
@@ -18,5 +17,3 @@
     
   </nav>
 </header>
-
-</div>
