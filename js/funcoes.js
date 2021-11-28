@@ -8,7 +8,8 @@ const back = "venddiapi.herokuapp.com"
 function teste(){
     let requests = new 
     requests.open("GET",`${back}/desenvolvimento/testeserver`)
-    requests.send()
+    request.responseType = 'json';
+    request.send();
     return requests.responseText
 }
 function myFunction() {
