@@ -7,6 +7,7 @@
 </head>
 <link href="css/estilo.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+<script language="JavaScript" src="arquivo.js"></script>
 <header>
     
     <nav>
@@ -18,6 +19,11 @@
 <body>
   <div class="container">
     <h1 class="titulo">Aqui jas um corpo</h1>
+    <h2>
+      <script>
+        teste()
+      </script>
+    </h2>
   </div>
 </body>
 <script>
