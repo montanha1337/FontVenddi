@@ -3,3 +3,4 @@ function myFunction() {
   document.getElementById("demo").style.color = "red";
   document.getElementById("demo").style.backgroundColor = "yellow";        
 }
+ module.exports = {myFunction}
