@@ -1,5 +1,5 @@
 window.addEventListener("load",myFunction);
-window.addEventListener("load",myFunctionNew);
+;
 
 
 var texto = "aprendendo a criar elementos"
@@ -12,11 +12,13 @@ function rota(res,req){
 
 function myFunction() {
 
-  document.getElementById("demo").textContent=texto;        
+  document.getElementById("demo").textContent=texto;
+  window.addEventListener("load",myFunctionNew)        
 }
 function myFunctionNew() {
 
     document.getElementById("demo").textContent="mudou";  
     document.getElementById("teste").textContent="mudou";       
   }
+  
  module.exports = {myFunction,myFunctionNew}
