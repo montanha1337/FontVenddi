@@ -7,10 +7,10 @@ var rota2
 
 function inicia(){
     rota1 = document.getElementById("demo")
-    rota1.addEventListener("load",myFunction)
+    rota1.addEventListener("click",myFunction)
 
     rota2 =  document.getElementById("demo")
-    rota1.addEventListener("load",rota) 
+    rota1.addEventListener("click",rota) 
 
 }
 function rota(res,req){
