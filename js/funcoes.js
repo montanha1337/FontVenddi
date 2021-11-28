@@ -1,5 +1,22 @@
- var texto = "aprendendo a criar elementos"
-window.addEventListener("load",myFunction);
+window.addEventListener("load",inicia);
+
+var texto = "aprendendo a criar elementos"
+var rota1
+var rota2 
+
+
+function inicia(){
+    rota1 = document.getElementById("demo")
+    rota1.addEventListener("load",myFunction)
+
+    rota2 =  document.getElementById("demo")
+    rota1.addEventListener("load",rota) 
+
+}
+function rota(res,req){
+    res.redirect("https://venddiapi.herokuapp.com/desenvolvimento/rotasparaimportacao")
+}
+
 function myFunction() {
 
   document.getElementById("demo").textContent=texto;        
