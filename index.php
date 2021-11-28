@@ -20,15 +20,9 @@
   <div class="container">
     <h1 class="titulo">Aqui jas um corpo</h1>
     <h2>
-      <script>
-        function teste(){
-    console.log("passou por aqui")
-    return "olá mundo!!"
-}
-      </script>
-      <script language="JavaScript" src="arquivo.js">
-        teste()
-      </script>
+    <script type="text/javascript">
+  alert('Olá mundo!');
+</script>
     </h2>
   </div>
 </body>
